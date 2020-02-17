@@ -350,3 +350,17 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.opaque {
+  opacity: 0.5;
+}
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.source,
+.target {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2.4rem;
+}
